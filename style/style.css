@@ -155,14 +155,14 @@ header a:active {
 }
 
 a {
-  color: grey;
+  color: black;
   text-decoration: none;
 }
 
 li {
   font-size: 16px;
   font-family: "RasmusAndersson-Inter-Regular";
-  line-height: 36px;
+  line-height: 36px;s
   color: grey;
 }
 
@@ -198,7 +198,8 @@ label:hover{
 
 /* Estilo del boton cuando el menú está expandido*/
 input:checked ~ label {
-  background: lightgrey; 
+  background: black;
+  color: white; 
 }
 
 
@@ -397,6 +398,10 @@ margin-top: 20px;
   margin-top: 10px;
 }
 
+#link-contacto {
+  color: grey;
+}
+
 
 #rrss {
   width: 100%;
@@ -413,8 +418,8 @@ margin-top: 20px;
  header {
 padding: 16px;
 justify-content: space-between;
-align-items: center;
 }
+
   .content-wrapper, .interfooter {
     width: 90%;
   }
@@ -567,6 +572,10 @@ align-items: center;
     display: flex;
     text-align: right;
     justify-content: flex-end;
+  }
+
+  input:checked ~ label {
+    align-items: flex-start;
   }
 
 /*
