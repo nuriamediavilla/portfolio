@@ -473,7 +473,7 @@ justify-content: space-between;
 
   .project-row {
     flex-wrap: wrap;
-    row-gap: 40%;
+    row-gap: 80px;
     }
   
   .project {
